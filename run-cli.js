@@ -31,4 +31,6 @@ sqsdProcess.on('exit', function () {
     console.info('SQSD stopped.');
 });
 
-sqsdProcess.start();
+setTimeout(function(){
+    sqsdProcess.start();
+},5000);
