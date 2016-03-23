@@ -1,4 +1,4 @@
-FROM node:4
+FROM iron/node
 
 MAINTAINER Aleksandr Popov  <mogadanez@gmail.com>
 
